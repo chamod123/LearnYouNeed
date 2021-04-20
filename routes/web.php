@@ -17,6 +17,27 @@ Route::get('/', function () {
 Route::get('/blog', function () {
     return view('blog');
 });
+Route::get('/services', function () {
+    return view('services');
+});
+Route::get('/portfolio', function () {
+    return view('portfolio');
+});
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/about', function () {
+    return view('about');
+});
+Route::get('/team', function () {
+    return view('team');
+});
+Route::get('/testimonials', function () {
+    return view('testimonials');
+});
 
 Auth::routes();
 
