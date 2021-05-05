@@ -12,10 +12,8 @@
                 <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
-                            <h2>Welcome to <span>Company</span></h2>
-                            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
-                                ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
-                                doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <h2>Welcome to <span>Learn You Need</span></h2>
+                            <p>We are providing platform to share your knowledge to others and get the knowledge from the others. You can ask the any quesion and you also can githe arnser foe any question if you need the solution</p>
                             <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
                         </div>
                     </div>
@@ -25,10 +23,8 @@
                 <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
-                            <h2>Lorem Ipsum Dolor</h2>
-                            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
-                                ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
-                                doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <h2>Welcome to <span>Learn You Need</span></h2>
+                            <p>We are providing platform to share your knowledge to others and get the knowledge from the others. You can ask the any quesion and you also can githe arnser foe any question if you need the solution</p>
                             <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
                         </div>
                     </div>
@@ -38,10 +34,8 @@
                 <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg);">
                     <div class="carousel-container">
                         <div class="carousel-content animate__animated animate__fadeInUp">
-                            <h2>Sequi ea ut et est quaerat</h2>
-                            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil
-                                ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse
-                                doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                            <h2>Welcome to <span>Learn You Need</span></h2>
+                            <p>We are providing platform to share your knowledge to others and get the knowledge from the others. You can ask the any quesion and you also can githe arnser foe any question if you need the solution</p>
                             <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
                         </div>
                     </div>
@@ -70,33 +64,23 @@
 
                 <div class="row content">
                     <div class="col-lg-6" data-aos="fade-right">
-                        <h2>Eum ipsam laborum deleniti velitena</h2>
-                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee
-                            trave</h3>
+                        <h2>Learn What You Nedd</h2>
+                        <h3>Self studing and problem solving platform.</h3>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                         <p>
-                            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum
+                            Share your knowledge and learn you need.
                         </p>
                         <ul>
-                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequa
+                            <li><i class="ri-check-double-line"></i> Increase productivity
                             </li>
-                            <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate
-                                velit
+                            <li><i class="ri-check-double-line"></i> Accelerate time to market
                             </li>
-                            <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                consequat. Duis aute irure dolor in reprehenderit in
+                            <li><i class="ri-check-double-line"></i> Protect institutional knowledge
                             </li>
                         </ul>
                         <p class="fst-italic">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore
-                            magna aliqua.
+                            Share your knowledge to others and improve theres productorvity too.
                         </p>
                     </div>
                 </div>
@@ -108,8 +92,8 @@
         <section id="services" class="services section-bg">
             <div class="container" data-aos="fade-up">
 
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                <div class="row col-md-12">
+                    <div class="col-lg-4 col-md-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box iconbox-blue">
                             <div class="icon">
                                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -118,12 +102,12 @@
                                 </svg>
                                 <i class="bx bxl-dribbble"></i>
                             </div>
-                            <h4><a href="">Lorem Ipsum</a></h4>
-                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                            <h4><a href="">Poblem Solving</a></h4>
+                            <p>Share your problem and get solutions from the others.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                    <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
                          data-aos-delay="200">
                         <div class="icon-box iconbox-orange ">
                             <div class="icon">
@@ -133,12 +117,12 @@
                                 </svg>
                                 <i class="bx bx-file"></i>
                             </div>
-                            <h4><a href="">Sed Perspiciatis</a></h4>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                            <h4><a href="">Blogging</a></h4>
+                            <p>Write your own blog post to share your ideas.</p>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
+                    <div class="col-lg-4 col-md-4 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in"
                          data-aos-delay="300">
                         <div class="icon-box iconbox-pink">
                             <div class="icon">
@@ -148,10 +132,12 @@
                                 </svg>
                                 <i class="bx bx-tachometer"></i>
                             </div>
-                            <h4><a href="">Magni Dolores</a></h4>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            <h4><a href="">Fast solution</a></h4>
+                            <p>If you know some solution for the any problem, you can help.</p>
                         </div>
                     </div>
+                </div>
+                <div class="row col-md-12">
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in"
                          data-aos-delay="100">
@@ -163,8 +149,8 @@
                                 </svg>
                                 <i class="bx bx-layer"></i>
                             </div>
-                            <h4><a href="">Nemo Enim</a></h4>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <h4><a href="">Learn New Thinks</a></h4>
+                            <p>Read the others ideas and improve your knowledge</p>
                         </div>
                     </div>
 
@@ -178,8 +164,8 @@
                                 </svg>
                                 <i class="bx bx-slideshow"></i>
                             </div>
-                            <h4><a href="">Dele Cardo</a></h4>
-                            <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+                            <h4><a href="">Get The Points </a></h4>
+                            <p>You can earn points when working on this site</p>
                         </div>
                     </div>
 
@@ -193,8 +179,8 @@
                                 </svg>
                                 <i class="bx bx-arch"></i>
                             </div>
-                            <h4><a href="">Divera Don</a></h4>
-                            <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+                            <h4><a href="">Comment Your Ideas</a></h4>
+                            <p>You can comment and reply on others ideas</p>
                         </div>
                     </div>
 
@@ -204,7 +190,7 @@
         </section><!-- End Services Section -->
 
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio">
+        <section id="portfolio" class="portfolio" hidden>
             <div class="container">
 
                 <div class="row" data-aos="fade-up">
@@ -334,7 +320,7 @@
         </section><!-- End Portfolio Section -->
 
         <!-- ======= Our Clients Section ======= -->
-        <section id="clients" class="clients">
+        <section id="clients" class="clients" hidden="">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">

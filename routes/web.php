@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home_page');
 });
 Route::get('/blog', function () {
-    return view('blog');
+    return view('Blog.blog');
 });
 Route::get('/services', function () {
     return view('services');
