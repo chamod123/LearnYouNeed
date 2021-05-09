@@ -45,6 +45,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
  Route::get('/New_Blog', 'BlogController@newBlogView');
+ Route::post('/New_Blog', 'BlogController@saveBlogView');
 
 Auth::routes();
 
