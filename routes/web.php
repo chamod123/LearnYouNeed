@@ -43,6 +43,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+
+ Route::get('/New_Blog', 'BlogController@newBlogView');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
