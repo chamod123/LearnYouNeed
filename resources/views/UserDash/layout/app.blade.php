@@ -19,6 +19,9 @@
 
     <!-- Custom styles for this template-->
     <link href="/assets/user_dash/css/sb-admin-2.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this page -->
+    <link href="/assets/user_dash/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 <style>
 
     .box-header{
@@ -57,6 +60,12 @@
             <a class="nav-link" href="/New_Blog">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Add New Blog Post</span></a>
+        </li>
+
+        <li class="nav-item ">
+            <a class="nav-link" href="/View_Blogs/{{ Auth::user()->id }}">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>Your Blogs</span></a>
         </li>
 
         <!-- Divider -->
@@ -449,5 +458,13 @@
 <!-- Page level custom scripts -->
 <script src="/assets/user_dash/js/demo/chart-area-demo.js"></script>
 <script src="/assets/user_dash/js/demo/chart-pie-demo.js"></script>
+
+
+<!-- Page level plugins -->
+<script src="/assets/user_dash/vendor/datatables/jquery.dataTables.min.js"></script>
+<script src="/assets/user_dash/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="/assets/user_dash/js/demo/datatables-demo.js"></script>
 
 </html>
