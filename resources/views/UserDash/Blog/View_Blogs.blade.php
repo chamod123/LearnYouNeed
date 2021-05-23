@@ -5,7 +5,10 @@
     <div class="container-fluid">
 
         <!-- Page Heading -->
-        <h1 class="h3 mb-2 text-gray-800">Your Blog Posters</h1>
+        <div class="row box-header">
+            <h1 class="h3 mb-2 text-gray-800 col-md-10">Your Blog Posters</h1>
+            <h1 class="h3 mb-2 text-gray-800 col-md-2"><a class="btn btn-primary" href="/New_Blog">Add New Post</a></h1>
+        </div>
 
         <!-- DataTales Example -->
         <div class="card shadow mb-4">

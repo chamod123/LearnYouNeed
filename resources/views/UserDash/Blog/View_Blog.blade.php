@@ -12,7 +12,7 @@
     <div class="row box-header">
         <div class="row col-md-12">
             {{--<div class="col-md-1"></div>--}}
-            <h1 class="col-md-10" style="color: #4cd640"><b> &nbsp {{$blog->title}}</b></h1>
+            <h1 class="col-md-10" style="color: #1d4865"><b> &nbsp {{$blog->title}}</b></h1>
         </div>
     </div>
 

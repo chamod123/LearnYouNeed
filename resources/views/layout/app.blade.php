@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="/assets/img/favicon.png" rel="icon">
-    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/assets/img/Logo/logo5_22_13654.png" rel="icon">
+    <link href="/assets/img/Logo/logo5_22_13654.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -43,9 +43,10 @@
 <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="/"><span>L</span>Y<span>Ne</span></a></h1>
+        {{--<h1 class="logo me-auto"><a href="/"><span>L</span>Y<span>Ne</span></a></h1>--}}
+        <h4 class=" me-auto"><a href="/"><span style="color:#ff9904;"><img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid" style="width: 40px;height: 40px">Learn You Need</span></a></h4>
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+       <a href="index.html" class="logo me-auto me-lg-0"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
@@ -93,7 +94,7 @@
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form></li>
-                            <li><a href="#">Profile</a></li>
+                            <li><a href="/home">My Home</a></li>
                         </ul>
                     </li>
 
@@ -107,7 +108,7 @@
             <a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
             <a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+            <a href="#" class="linkedin"><i class="bu bi-linkedin"></i></a>
         </div>
 
     </div>
@@ -126,13 +127,13 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3>Company</h3>
+                    <h3 style="color: #ff9904"><img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid" style="width: 60px;height: 60px">Learn You Need</h3>
                     <p>
-                        A108 Adam Street <br>
-                        New York, NY 535022<br>
-                        United States <br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
+                          <br>
+                         <br>
+                         <br><br>
+                        <strong>Phone:</strong> +94 77 98 53 864<br>
+                        <strong>Email:</strong> learnyouneed@gmail.com<br>
                     </p>
                 </div>
 
@@ -174,7 +175,7 @@
 
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright <strong><span>Company</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Learn You Need</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->
