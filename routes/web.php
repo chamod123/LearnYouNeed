@@ -47,8 +47,16 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/View_Blogs/{user_id}', 'BlogController@View_Blogs');
 Route::get('/View_a_Blog/{blog_id}', 'BlogController@View_a_Blog');
 
- Route::get('/New_Blog', 'BlogController@newBlogView');
+Route::get('/New_Blog', 'BlogController@newBlogView');
 Route::post('/New_Blog', 'BlogController@saveBlogView');
+
+
+//admin
+Route::get('/Category', 'CategoryController@View_Category');
+Route::get('/New_Category', 'CategoryController@New_Category');
+Route::post('/New_Category', 'CategoryController@saveBlogView');
+
+
 
 Auth::routes();
 

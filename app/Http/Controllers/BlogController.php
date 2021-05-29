@@ -30,7 +30,7 @@ class BlogController extends Controller
         $blog->user_id = Auth::user()->id;
         $blog->save();
 
-        return back();
+        return redirect('/View_Blogs/'.auth()->user()->id);
 
         //to view
 //        html_entity_decode($article_text);

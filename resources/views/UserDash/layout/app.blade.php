@@ -45,11 +45,15 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <a style="background-color: white" class="sidebar-brand d-flex align-items-center justify-content-center" href="/home">
             <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-laugh-wink"></i>
+                    <img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid" style="width: 40px;height: 40px">
+
+
             </div>
-            <div class="sidebar-brand-text mx-3">LYNE</div>
+            <div class="sidebar-brand-text mx-3">
+                <span style="color:#ff9904;font-size: 12px">Learn You Need </span>
+            </div>
         </a>
 
         <!-- Divider -->
@@ -64,14 +68,14 @@
         <hr class="sidebar-divider">
         <li class="nav-item ">
             <a class="nav-link" href="/New_Blog">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <i class="fas fa-fw fa-save"></i>
                 <span>Add New Blog Post</span></a>
         </li>
 
         <li class="nav-item ">
             <a class="nav-link" href="/View_Blogs/{{ Auth::user()->id }}">
-                <i class="fas fa-fw fa-tachometer-alt"></i>
-                <span>Your Blogs</span></a>
+                <i class="fas fa-fw fa-blog"></i>
+                <span>Your Blog</span></a>
         </li>
 
     @if( Auth::user()->type == 'admin' )
@@ -83,7 +87,11 @@
                 Master Data
             </div>
 
-            
+            <li class="nav-item ">
+                <a class="nav-link" href="/Category">
+                    <i class="fas fa-fw fa-compress"></i>
+                    <span>Category</span></a>
+            </li>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">

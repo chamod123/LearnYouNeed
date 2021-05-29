@@ -50,11 +50,15 @@
             </div>
         </div>
 
-        <textarea name="blog_body" id="blog_body" rows="10" cols="80">
-               ...
-            </textarea>
+        <textarea name="blog_body" id="blog_body" rows="10" cols="80"></textarea>
 
-        <button type="submit">Save</button>
+        <div class="row box-header">
+            <div class="row col-md-12">
+                <div class="col-md-1"></div>
+                <button type="submit"  class="btn btn-success">Save</button>
+                {{--<input class="col-md-7 form-control">--}}
+            </div>
+        </div>
     </form>
 
     <script>
