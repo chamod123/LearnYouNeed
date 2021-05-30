@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\BlogModel;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +24,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('UserDash.Home');
+        $blog_count = BlogModel::where('user_id','=',auth()->user()->id)->count();
+        $blog_likes = BlogModel::where('user_id','=',auth()->user()->id)->sum('likes');;
+
+//        return $blog_likes;
+        return view('UserDash.Home',
+            [
+                'blog_count' => $blog_count,
+                'blog_likes' => $blog_likes,
+            ]
+        );
     }
 }

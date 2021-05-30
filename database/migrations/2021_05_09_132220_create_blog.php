@@ -19,6 +19,8 @@ class CreateBlog extends Migration
             $table->string('slug');
             $table->integer('category_id');
             $table->longText('blog_body');
+            $table->integer('likes')->default(0);
+            $table->integer('user_id');
             $table->timestamps();
         });
     }

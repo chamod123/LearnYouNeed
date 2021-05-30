@@ -45,7 +45,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a style="background-color: white" class="sidebar-brand d-flex align-items-center justify-content-center" href="/home">
+        <a style="background-color: white" class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
             <div class="sidebar-brand-icon rotate-n-15">
                     <img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid" style="width: 40px;height: 40px">
 

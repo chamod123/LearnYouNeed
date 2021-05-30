@@ -14,9 +14,7 @@
 Route::get('/', function () {
     return view('home_page');
 });
-Route::get('/blog', function () {
-    return view('Blog.blog');
-});
+
 Route::get('/services', function () {
     return view('services');
 });
@@ -57,7 +55,14 @@ Route::get('/New_Category', 'CategoryController@New_Category');
 Route::post('/New_Category', 'CategoryController@saveBlogView');
 
 
+Route::get('/blog', 'BlogController@View_Blog');
+//Route::get('/blog', function () {
+//    return view('Blog.blog');
+//});
+Route::get('/blogOld', function () {
+    return view('Blog.blogold');
+});
+
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

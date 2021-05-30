@@ -20,6 +20,7 @@ class BlogController extends Controller
         return view('UserDash.Blog.View_Blogs',['blogs_data'=>$blogs_data]);
     }
 
+
     public function saveBlogView(Request $request)
     {
         $blog = new BlogModel();
@@ -44,6 +45,12 @@ class BlogController extends Controller
         return view('UserDash.Blog.View_Blog', [
             'blog' => $blog
         ]);
+    }
+
+    public function View_Blog()
+    {
+        $blogs = BlogModel::all();
+        return view('Blog.blog',['blogs'=>$blogs]);
     }
 
 }
