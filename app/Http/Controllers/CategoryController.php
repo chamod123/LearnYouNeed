@@ -20,7 +20,7 @@ class CategoryController extends Controller
         ]);
     }
 
-    public function saveBlogView(Request $request)
+    public function saveCategory(Request $request)
     {
         $category_data = new CategoryModel();
         $category_data->cat_name = $request->get('cat_name');

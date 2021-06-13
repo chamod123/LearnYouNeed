@@ -52,7 +52,7 @@ Route::post('/New_Blog', 'BlogController@saveBlogView');
 //admin
 Route::get('/Category', 'CategoryController@View_Category');
 Route::get('/New_Category', 'CategoryController@New_Category');
-Route::post('/New_Category', 'CategoryController@saveBlogView');
+Route::post('/New_Category', 'CategoryController@saveCategory');
 
 
 Route::get('/blog', 'BlogController@View_Blog');
