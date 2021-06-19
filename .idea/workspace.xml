@@ -1,93 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="325a2b6e-451d-44db-bcb9-9c22527a8fb1" name="Default" comment="view saved blogs and view a blog">
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/animate.css/animate.compat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/animate.css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/animate.css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/aos/aos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/aos/aos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap-icons/bootstrap-icons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap-icons/fonts/bootstrap-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap-icons/fonts/bootstrap-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap-icons/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/css/animations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/css/boxicons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/css/boxicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/css/transformations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/fonts/boxicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/fonts/boxicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/fonts/boxicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/fonts/boxicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/boxicons/fonts/boxicons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/glightbox/css/glightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/glightbox/css/glightbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/glightbox/js/glightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/glightbox/js/glightbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/isotope-layout/isotope.pkgd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/php-email-form/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.symbol.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/remixicon/remixicon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/swiper/swiper-bundle.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/swiper/swiper-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/HomeStyle/waypoints/noframework.waypoints.js" afterDir="false" />
+    <list default="true" id="325a2b6e-451d-44db-bcb9-9c22527a8fb1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/UserModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_06_19_052030_change_blog_2021_06_19.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/UserDash/Home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/UserDash/Home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/BlogModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/BlogModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Blog/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Blog/blog.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,77 +24,70 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="54" column="61" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="61" />
+            <state relative-caret-position="960">
+              <caret line="57" column="45" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-              <folding>
-                <element signature="e#40#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="27" column="88" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="88" />
-              <folding>
-                <element signature="e#40#58#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Home.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/UserDash/Home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-              <folding>
-                <element signature="e#15206#15212#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/UserDash/layout/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layout/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="206" column="30" selection-start-line="206" selection-start-column="30" selection-end-line="206" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="33" column="57" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="57" />
+            <state relative-caret-position="317">
+              <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding>
                 <element signature="e#40#58#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/BlogModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/UserModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/User.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="blog.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/Blog/blog.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2021_06_19_052030_change_blog_2021_06_19.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_19_052030_change_blog_2021_06_19.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="22" column="39" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="View_Blogs.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/UserDash/Blog/View_Blogs.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -183,7 +96,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Add</find>
       <find>name</find>
       <find>Your Blog Posters</find>
       <find>Interface</find>
@@ -201,8 +113,6 @@
       <find>home</find>
       <find>Success</find>
       <find>Warning</find>
-      <find>/blog</find>
-      <find>View_Blog</find>
       <find>blog_body</find>
       <find>index</find>
       <find>View_Blogs</find>
@@ -213,6 +123,9 @@
       <find>assets/ve</find>
       <find>assets/v</find>
       <find>assets/vendor</find>
+      <find>View_Blog</find>
+      <find>View_Blog(</find>
+      <find>/blog</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -237,10 +150,18 @@
       <command text="php artisan make:controller CategoryController" />
       <command text="php artisan make:model CategoryModel" />
       <command text="php artisan serve" />
+      <command text="php artisan make:model UserModel" />
+      <command text="php artisan serve" />
+      <command text="php artisan make:migration change_blog_2021_06_19" />
+      <command text="php artisan migratr" />
+      <command text="php artisan migrate" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -263,7 +184,6 @@
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/app/BlogModel.php" />
         <option value="$PROJECT_DIR$/resources/views/UserDash/Blog/view_a_blog.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/UserDash/Blog/View_Blogs.blade.php" />
@@ -276,13 +196,16 @@
         <option value="$PROJECT_DIR$/database/migrations/2021_05_09_132220_create_blog.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/resources/views/UserDash/layout/app.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
-        <option value="$PROJECT_DIR$/resources/views/Blog/blog.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
         <option value="$PROJECT_DIR$/resources/views/UserDash/Home.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/vendor/animate.css/animate.compat.css" />
         <option value="$PROJECT_DIR$/resources/views/layout/app.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/UserModel.php" />
+        <option value="$PROJECT_DIR$/app/BlogModel.php" />
+        <option value="$PROJECT_DIR$/resources/views/Blog/blog.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2021_06_19_052030_change_blog_2021_06_19.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" />
       </list>
     </option>
   </component>
@@ -494,7 +417,22 @@
               <item name="LearnYouNeed" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnYouNeed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnYouNeed" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="UserDash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnYouNeed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnYouNeed" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="UserDash" type="462c0819:PsiDirectoryNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LearnYouNeed" type="b2602c69:ProjectViewProjectNode" />
@@ -580,7 +518,10 @@
       <workItem from="1622347090771" duration="5551000" />
       <workItem from="1622394213331" duration="159000" />
       <workItem from="1622426396424" duration="5000" />
-      <workItem from="1623581475640" duration="156000" />
+      <workItem from="1623581475640" duration="1281000" />
+      <workItem from="1623639576488" duration="52000" />
+      <workItem from="1624077863661" duration="1936000" />
+      <workItem from="1624079899630" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="page content setup">
       <created>1618890663740</created>
@@ -645,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1622347190039</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="assets/HomeStyle change">
+      <created>1623581850764</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1623581850764</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64506000" />
+    <option name="totallyTimeSpent" value="68324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -657,25 +605,25 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="9" weight="0.48827586" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.203125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1829427" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Command Line Tools Console" order="9" weight="0.48827586" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,30 +642,10 @@
     <MESSAGE value="Logo change" />
     <MESSAGE value="Save Category data" />
     <MESSAGE value="View Blogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="View Blogs" />
+    <MESSAGE value="assets/HomeStyle change" />
+    <option name="LAST_COMMIT_MESSAGE" value="assets/HomeStyle change" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layout/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home_page.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -759,9 +687,6 @@
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -887,13 +812,6 @@
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/BlogModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/CategoryModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -939,24 +857,10 @@
     <entry file="file://$PROJECT_DIR$/resources/views/Blog/blogold.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/UserDash/Blog/View_Blogs.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/UserDash/Blog/View_Blog.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="30" column="43" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/Blog/blog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="60" column="75" selection-start-line="60" selection-start-column="75" selection-end-line="60" selection-end-column="75" />
         </state>
       </provider>
     </entry>
@@ -971,33 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
           <caret line="69" column="25" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="33" column="57" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="57" />
-          <folding>
-            <element signature="e#40#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <element signature="e#40#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="54" column="61" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1018,30 +895,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/UserDash/Home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-          <folding>
-            <element signature="e#15206#15212#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/UserDash/layout/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="980">
           <caret line="49" column="38" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="38" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layout/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="206" column="30" selection-start-line="206" selection-start-column="30" selection-end-line="206" selection-end-column="30" />
+        <state relative-caret-position="363">
+          <caret line="204" column="45" selection-start-line="204" selection-start-column="45" selection-end-line="204" selection-end-column="45" />
+          <folding>
+            <element signature="e#8324#8330#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/UserDash/Home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="57" column="45" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/UserDash/Blog/View_Blogs.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/BlogModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/Blog/blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2021_06_19_052030_change_blog_2021_06_19.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="32" column="22" lean-forward="true" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#40#58#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
