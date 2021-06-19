@@ -11,14 +11,16 @@ class BlogController extends Controller
 {
     public function newBlogView()
     {
-        return view('UserDash.Blog.New_Blog');
+        $category = CategoryModel::all();
+        return view('UserDash.Blog.New_Blog',
+            ['categories' => $category]
+        );
     }
+
     public function View_Blogs($user_id)
     {
-        $blogs_data = BlogModel::where('user_id','=',$user_id)->get();
-
-//return $blogs_data;
-        return view('UserDash.Blog.View_Blogs',['blogs_data'=>$blogs_data]);
+        $blogs_data = BlogModel::where('user_id', '=', $user_id)->get();
+        return view('UserDash.Blog.View_Blogs', ['blogs_data' => $blogs_data]);
     }
 
 
@@ -42,7 +44,7 @@ class BlogController extends Controller
 //            ]);
 //        post_count
 
-        return redirect('/View_Blogs/'.auth()->user()->id);
+        return redirect('/View_Blogs/' . auth()->user()->id);
 
         //to view
 //        html_entity_decode($article_text);
@@ -61,7 +63,13 @@ class BlogController extends Controller
     public function View_Blog()
     {
         $blogs = BlogModel::all();
-        return view('Blog.blog',['blogs'=>$blogs]);
+        $category = CategoryModel::orderBy('post_count', 'desc')->take(6)->get();
+        $recent_posts = BlogModel::orderBy('created_at', 'desc')->take(4)->get();
+        return view('Blog.blog', [
+            'blogs' => $blogs,
+            'categories' => $category,
+            'recent_posts' => $recent_posts,
+        ]);
     }
 
 }
