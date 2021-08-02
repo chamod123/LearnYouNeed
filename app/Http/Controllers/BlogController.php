@@ -6,6 +6,7 @@ use App\BlogModel;
 use App\CategoryModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Crypt;
 
 class BlogController extends Controller
 {
@@ -54,6 +55,7 @@ class BlogController extends Controller
 
     public function View_a_Blog($blog_id)
     {
+        $blog_id = Crypt::decrypt($blog_id);
         $blog = BlogModel::find($blog_id);
         return view('UserDash.Blog.View_Blog', [
             'blog' => $blog
@@ -70,6 +72,26 @@ class BlogController extends Controller
             'categories' => $category,
             'recent_posts' => $recent_posts,
         ]);
+    }
+
+
+    public function deleteBlog($blog_id)
+    {
+        $blog_id = Crypt::decrypt($blog_id);
+
+        $blog = BlogModel::find($blog_id);
+        if (empty($blog)) {
+            $errors = ["Cant Delete"];
+        }
+        if (!empty($errors)) {
+            return response()->json([
+                'msg' => 'Unable to delete. ',
+                'errors' => $errors
+            ], 200);
+        } else {
+            $blog->delete();
+            return back();
+        }
     }
 
 }
