@@ -89,9 +89,52 @@ class BlogController extends Controller
                 'errors' => $errors
             ], 200);
         } else {
+
+
+            $categoty = CategoryModel::where('id','=',$blog->category_id)->first();
+            $categoty->post_count = $categoty->post_count + 1;
+            $categoty->save();
             $blog->delete();
+
             return back();
         }
+    }
+
+    public function EditBlogView($blog_id){
+        $blog_id = Crypt::decrypt($blog_id);
+        $blog = BlogModel::find($blog_id);
+        $categories = CategoryModel::all();
+
+        return view('UserDash.Blog.edit_Blog', ['blog' => $blog,
+            'categories' => $categories]);
+    }
+
+
+    public function EditBlog(Request $request)
+    {
+        $blog = BlogModel::find($request->get('blog_id'));
+        $blog->title = $request->get('title');
+        $blog->slug = $request->get('slug');
+        $blog->category_id = $request->get('category_id');
+        $blog->blog_body = base64_encode($request->get('blog_body'));
+        $blog->user_id = Auth::user()->id;
+        $blog->save();
+
+//        $categoty = CategoryModel::find($request->get('category_id'));
+//        $categoty->post_count = $categoty->post_count + 1;
+//        $categoty->save();
+
+//        $categoty = CategoryModel::where('id', $request->get('category_id'))
+//            ->update([
+//                'post_count' => $categoty->post_count + 1
+//            ]);
+//        post_count
+
+        return redirect('/View_Blogs/' . auth()->user()->id);
+
+        //to view
+//        html_entity_decode($article_text);
+//        $content = base64_decode($editor_content);
     }
 
 }
