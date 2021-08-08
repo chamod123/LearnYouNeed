@@ -64,8 +64,8 @@
 
                 <div class="row content">
                     <div class="col-lg-6" data-aos="fade-right">
-                        <h2>Learn What You Nedd</h2>
-                        <h3>Self studing and problem solving platform.</h3>
+                        <h2>Learn What You Need</h2>
+                        <h3>Self studding and problem solving platform.</h3>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
                         <p>
@@ -80,13 +80,40 @@
                             </li>
                         </ul>
                         <p class="fst-italic">
-                            Share your knowledge to others and improve theres productorvity too.
+                            Share your knowledge to others and improve there productivity too.
                         </p>
                     </div>
                 </div>
 
             </div>
         </section><!-- End About Us Section -->
+
+        <!-- ======= New Blog Section ======= -->
+        <section id="about-us" class="about-us">
+            <div class="container" data-aos="fade-up">
+
+                <div class="row content">
+                    <div class="col-lg-7" data-aos="fade-right" style="color:#2fa360;">
+                        <img class="col-md-10" src="assets/img/blog/blog-recent-1.jpg" alt="" >
+                        <h2>Learn What You Need</h2>
+                        <h3>Self studding and problem solving platform.</h3>
+                    </div>
+                    <div class="col-lg-5 pt-4 pt-lg-0" data-aos="fade-left">
+                        @foreach($recent_posts as $recent_post)
+                        <div class="row" style="margin-top: 10px">
+                            <img class="col-md-2" src="assets/img/blog/blog-recent-1.jpg" alt=""style="height: 60px">
+                            <div class="col-md-10 ">
+                                <h4 class="col-md-10" ><a href="blog-single.html">{{$recent_post->title}}</a></h4>
+                                <time class="col-md-2"  datetime="2020-01-01">{{$recent_post->created_at}}</time>
+                            </div>
+                        </div>
+                        @endforeach
+
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- Blog Section -->
 
         <!-- ======= Services Section ======= -->
         <section id="services" class="services section-bg">
@@ -102,7 +129,7 @@
                                 </svg>
                                 <i class="bx bxl-dribbble"></i>
                             </div>
-                            <h4><a href="">Poblem Solving</a></h4>
+                            <h4><a href="">problem Solving</a></h4>
                             <p>Share your problem and get solutions from the others.</p>
                         </div>
                     </div>

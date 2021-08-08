@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home_page');
-});
+Route::get('/', 'DashBoardController@homePage');
+//Route::get('/', function () {
+//    return view('home_page');
+//});
 
 Route::get('/services', function () {
     return view('services');
