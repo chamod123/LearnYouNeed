@@ -91,9 +91,9 @@ class BlogController extends Controller
         } else {
 
 
-            $categoty = CategoryModel::where('id','=',$blog->category_id)->first();
-            $categoty->post_count = $categoty->post_count + 1;
-            $categoty->save();
+            $category = CategoryModel::where('id','=',$blog->category_id)->first();
+            $category->post_count = $category->post_count - 1;
+            $category->save();
             $blog->delete();
 
             return back();
