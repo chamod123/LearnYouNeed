@@ -36,11 +36,12 @@
                             <tr>
                                 <td>{{$blog_data->title}}</td>
                                 <td>{{$blog_data->slug}}</td>
-                                <td>{{$blog_data->category_id}}</td>
+                                <td>{{$blog_data->category->cat_name}}</td>
                                 <td>{{$blog_data->created_at}}</td>
                                 <td><a href="/View_a_Blog/{{$enBlog_id}}"><i
                                                 class="fas fa-eye btn btn-success btn-circle btn-sm"></i></a>&nbsp
-                                    <a href="/Edit_Blog/{{$enBlog_id}}"><i class="fas fa-edit btn btn-warning btn-circle btn-sm"></i></a>&nbsp
+                                    <a href="/Edit_Blog/{{$enBlog_id}}"><i
+                                                class="fas fa-edit btn btn-warning btn-circle btn-sm"></i></a>&nbsp
                                     <a href="/delete_blog/{{$enBlog_id}}"><i
                                                 class="far fa-trash-alt btn btn-danger btn-circle btn-sm"></i></a></td>
                                 <td hidden>{{$blog_data->created_at}}</td>
