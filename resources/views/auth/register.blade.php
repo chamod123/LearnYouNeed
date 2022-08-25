@@ -77,4 +77,13 @@
     </div>
 </div>
         </div>
+    </main>
+
+@endsection
+
+@section('content_script')
+            <script>
+                $('#nave_tab_register').addClass('active');
+            </script>
+
 @endsection

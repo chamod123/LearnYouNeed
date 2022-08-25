@@ -413,3 +413,13 @@
 
 
 @endsection
+
+
+@section('content_script')
+    <script>
+        $('#nave_tab_home').addClass('active');
+    </script>
+
+@endsection
+
+

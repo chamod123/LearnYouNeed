@@ -13,6 +13,9 @@
     <link href="/assets/img/Logo/logo5_22_13654.png" rel="icon">
     <link href="/assets/img/Logo/logo5_22_13654.png" rel="apple-touch-icon">
 
+    {{--jquery--}}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -50,7 +53,7 @@
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a href="/" class="active">Home</a></li>
+                <li><a href="/" id="nave_tab_home">Home</a></li>
 
                 <li hidden class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
                     <ul>
@@ -72,15 +75,15 @@
                 <li hidden><a href="/services">Services</a></li>
                 <li hidden><a href="/portfolio">Portfolio</a></li>
                 <li hidden><a href="/pricing">Pricing</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/contact">Contact</a></li>
+                <li><a href="/blog" id="nave_tab_blog">Blog</a></li>
+                <li><a href="/contact" id="nave_tab_content">Contact</a></li>
                 @guest
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                        <a id="nave_tab_login" class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                     </li>
                     @if (Route::has('register'))
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a id="nave_tab_register" class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                         </li>
                     @endif
                 @else
@@ -208,7 +211,7 @@
 
 <!-- Template Main JS File -->
 <script src="/assets/js/main.js"></script>
-
+@yield('content_script')
 </body>
 
 </html>

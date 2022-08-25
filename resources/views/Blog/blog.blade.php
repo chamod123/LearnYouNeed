@@ -257,3 +257,10 @@
     </main><!-- End #main -->
 
 @endsection
+
+@section('content_script')
+    <script>
+        $('#nave_tab_blog').addClass('active');
+    </script>
+
+@endsection
