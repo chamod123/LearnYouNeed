@@ -50,4 +50,14 @@ class CategoryController extends Controller
         return redirect('/Category');
     }
 
+    public function EditCategoryStatus($enCategory_id,$status)
+    {
+        $cat_id = Crypt::decrypt($enCategory_id);
+        $category = CategoryModel::find($cat_id);
+        $category->status = $status;
+        $category->save();
+
+        return redirect('/Category');
+    }
+
 }

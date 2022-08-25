@@ -478,11 +478,11 @@
 <script src="/assets/user_dash/js/sb-admin-2.min.js"></script>
 
 <!-- Page level plugins -->
-<script src="/assets/user_dash/vendor/chart.js/Chart.min.js"></script>
+{{--<script src="/assets/user_dash/vendor/chart.js/Chart.min.js"></script>--}}
 
 <!-- Page level custom scripts -->
-<script src="/assets/user_dash/js/demo/chart-area-demo.js"></script>
-<script src="/assets/user_dash/js/demo/chart-pie-demo.js"></script>
+{{--<script src="/assets/user_dash/js/demo/chart-area-demo.js"></script>--}}
+{{--<script src="/assets/user_dash/js/demo/chart-pie-demo.js"></script>--}}
 
 
 <!-- Page level plugins -->

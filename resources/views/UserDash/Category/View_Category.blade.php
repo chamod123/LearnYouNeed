@@ -40,7 +40,12 @@
                                     {{--<a><i class="fas fa-eye btn btn-success btn-circle btn-sm"></i></a>&nbsp--}}
                                     <a href="/Edit_Category/{{$enCategory_id}}"><i
                                                 class="fas fa-edit btn btn-warning btn-circle btn-sm"></i></a>&nbsp
-                                    <a><i class="far fa-trash-alt btn btn-danger btn-circle btn-sm"></i></a></td>
+                                   @if($category->status == '1')
+                                        <a href="/category/status/{{$enCategory_id}}/0"><i class="fas fa-window-close btn btn-danger btn-circle btn-sm" style="color: white" title="disable category"></i></a>
+                                   @else
+                                        <a href="/category/status/{{$enCategory_id}}/1"><i class="far fa-check-square btn btn-success btn-circle btn-sm" style="color: white" title="enable category"></i></a>
+                                   @endif
+                                </td>
                                 <td hidden>{{$category->created_at}}</td>
                             </tr>
                         @endforeach
