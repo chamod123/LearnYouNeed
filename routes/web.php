@@ -58,7 +58,7 @@ Route::post('/New_Blog', 'BlogController@saveBlogView');
 Route::get('/Category', 'CategoryController@View_Category');
 Route::get('/New_Category', 'CategoryController@New_Category');
 Route::post('/New_Category', 'CategoryController@saveCategory');
-Route::get('/Edit_Category/{$enCategory_id}', 'CategoryController@EditCategoryView');
+Route::get('/Edit_Category/{enCategory_id}', 'CategoryController@EditCategoryView');
 Route::post('/Edit_Category', 'CategoryController@EditCategory');
 Route::any('/category/status/{enCategory_id}/{status}', 'CategoryController@EditCategoryStatus');
 
