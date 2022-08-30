@@ -43,11 +43,15 @@
                                     <a href="/Edit_Blog/{{$enBlog_id}}"><i
                                                 class="fas fa-edit btn btn-warning btn-circle btn-sm"></i></a>&nbsp
                                     {{--<a href="/delete_blog/{{$enBlog_id}}"><i--}}
-                                                {{--class="far fa-trash-alt btn btn-danger btn-circle btn-sm"></i></a></td>--}}
-                                @if($blog_data->status == '1')
-                                    <a href="/blog/status/{{$enBlog_id}}/0"><i class="fas fa-window-close btn btn-danger btn-circle btn-sm" style="color: white" title="disable category"></i></a>
-                                @else
-                                    <a href="/blog/status/{{$enBlog_id}}/1"><i class="far fa-check-square btn btn-success btn-circle btn-sm" style="color: white" title="enable category"></i></a>
+                                    {{--class="far fa-trash-alt btn btn-danger btn-circle btn-sm"></i></a></td>--}}
+                                    @if($blog_data->status == '1')
+                                        <a href="/blog/status/{{$enBlog_id}}/0"><i
+                                                    class="fas fa-window-close btn btn-danger btn-circle btn-sm"
+                                                    style="color: white" title="disable category"></i></a>
+                                    @else
+                                        <a href="/blog/status/{{$enBlog_id}}/1"><i
+                                                    class="far fa-check-square btn btn-success btn-circle btn-sm"
+                                                    style="color: white" title="enable category"></i></a>
                                 @endif
                                 <td hidden>{{$blog_data->created_at}}</td>
                             </tr>
@@ -59,10 +63,22 @@
         </div>
 
     </div>
-    <!-- /.container-fluid -->
+
+@endsection
 
 
 
+@section('content_script')
+    <script>
+        $(document).ready(function () {
+
+            $('#dataTable').DataTable({
+                "bDestroy": true,
+                order: [[4, 'desc']],
+            });
+        });
+
+    </script>
 
 @endsection
 

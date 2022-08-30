@@ -20,7 +20,7 @@ class BlogController extends Controller
 
     public function View_Blogs($user_id)
     {
-        $blogs_data = BlogModel::where('user_id', '=', $user_id)->get();
+        $blogs_data = BlogModel::where('user_id', '=', $user_id)->orderBy('created_at', 'DESC')->get();
         return view('UserDash.Blog.View_Blogs', ['blogs_data' => $blogs_data]);
     }
 
@@ -101,7 +101,8 @@ class BlogController extends Controller
 //        }
 //    }
 
-    public function EditBlogView($blog_id){
+    public function EditBlogView($blog_id)
+    {
         $blog_id = Crypt::decrypt($blog_id);
         $blog = BlogModel::find($blog_id);
         $categories = CategoryModel::all();
@@ -138,7 +139,7 @@ class BlogController extends Controller
 //        $content = base64_decode($editor_content);
     }
 
-    public function EditBlogStatus($enBlog_id,$status)
+    public function EditBlogStatus($enBlog_id, $status)
     {
         $blog_id = Crypt::decrypt($enBlog_id);
         $blog = BlogModel::find($blog_id);
