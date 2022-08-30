@@ -53,6 +53,7 @@ class BlogController extends Controller
     }
 
 
+    //view a blog by admin home
     public function View_a_Blog($blog_id)
     {
         $blog_id = Crypt::decrypt($blog_id);
@@ -62,6 +63,8 @@ class BlogController extends Controller
         ]);
     }
 
+
+    //view blogs in blogs nav tab
     public function View_Blog()
     {
         $blogs = BlogModel::all();
@@ -69,6 +72,21 @@ class BlogController extends Controller
         $recent_posts = BlogModel::orderBy('created_at', 'desc')->take(4)->get();
         return view('Blog.blog', [
             'blogs' => $blogs,
+            'categories' => $category,
+            'recent_posts' => $recent_posts,
+        ]);
+    }
+
+    //blog view from home
+    public function View_a_Blog_more($blog_id)
+    {
+        $blog_id = Crypt::decrypt($blog_id);
+        $blog = BlogModel::find($blog_id);
+
+        $category = CategoryModel::orderBy('post_count', 'desc')->take(6)->get();
+        $recent_posts = BlogModel::orderBy('created_at', 'desc')->take(4)->get();
+        return view('Blog.View_Blog', [
+            'blog' => $blog,
             'categories' => $category,
             'recent_posts' => $recent_posts,
         ]);

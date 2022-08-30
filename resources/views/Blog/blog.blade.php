@@ -58,10 +58,15 @@
 
                             <div class="entry-content">
                                 <div>
-                                    {!! base64_decode($blog->blog_body) !!}
+
+                                    {!! base64_decode(Illuminate\Support\Str::limit($blog->blog_body, 1000)) !!} ...
+{{--                                    {!! base64_decode($blog->blog_body) !!}--}}
                                 </div>
+                                <?php
+                                $enBlog_id = \Illuminate\Support\Facades\Crypt::encrypt($blog->id);
+                                ?>
                                 <div class="read-more">
-                                    <a href="blog-single.html">Read More</a>
+                                    <a href="/View_a_Blog_more/{{$enBlog_id}}">Read More</a>
                                 </div>
                             </div>
 

@@ -45,6 +45,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/View_Blogs/{user_id}', 'BlogController@View_Blogs');
 Route::get('/View_a_Blog/{enblog_id}', 'BlogController@View_a_Blog');
+Route::get('/View_a_Blog_more/{enblog_id}', 'BlogController@View_a_Blog_more');
 //Route::get('/delete_blog/{enblog_id}', 'BlogController@deleteBlog');
 Route::get('/blog/status/{enblog_id}/{status}', 'BlogController@EditBlogStatus');
 

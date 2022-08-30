@@ -100,11 +100,12 @@
                     </div>
                     <div class="col-lg-5 pt-4 pt-lg-0" data-aos="fade-left">
                         @foreach($recent_posts as $recent_post)
-                        <div class="row" style="margin-top: 10px">
+                        <div class="row" style="margin-top: 25px !important;">
                             <img class="col-md-2" src="assets/img/blog/blog-recent-1.jpg" alt=""style="height: 60px">
                             <div class="col-md-10 ">
-                                <h4 class="col-md-10" ><a href="blog-single.html" style="color: #0a53be">{{$recent_post->title}}</a></h4>
-                                <time class="col-md-2"  datetime="2020-01-01" style="color: #4cbb4f">{{$recent_post->created_at}}</time>
+                                <h4 class="col-md-12" ><a href="blog-single.html" style="color: #0a53be">{{$recent_post->title}}</a></h4>
+                                <b style="color: #ffa064;font-size: 13px">{{$recent_post->slug}}</b>&nbsp;&nbsp;
+                                <time style="color: #4cbb4f;font-size: 9px">{{$recent_post->created_at}}</time>
                             </div>
                         </div>
                         @endforeach
