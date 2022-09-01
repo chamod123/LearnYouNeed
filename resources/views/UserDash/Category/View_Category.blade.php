@@ -7,7 +7,8 @@
         <!-- Page Heading -->
         <div class="row box-header">
             <h1 class="h3 mb-2 text-gray-800 col-md-10">Category</h1>
-            <h1 class="h3 mb-2 text-gray-800 col-md-2"><a class="btn btn-primary" href="/New_Category">Add New Category</a></h1>
+            <h1 class="h3 mb-2 text-gray-800 col-md-2"><a class="btn btn-primary" href="/New_Category">Add New
+                    Category</a></h1>
         </div>
 
         <!-- DataTales Example -->
@@ -26,23 +27,25 @@
                             <th hidden></th>
                         </tr>
                         </thead>
-                        {{--<tfoot>--}}
-                        {{--<tr>--}}
-                        {{--<th>Name</th>--}}
-                        {{--<th>Position</th>--}}
-                        {{--<th>Office</th>--}}
-                        {{--<th>Age</th>--}}
-                        {{--</tr>--}}
-                        {{--</tfoot>--}}
+
                         <tbody>
                         @foreach($category_data as $category)
+                            <?php
+                            $enCategory_id = \Illuminate\Support\Facades\Crypt::encrypt($category->id);
+                            ?>
                             <tr>
                                 <td>{{$category->cat_name}}</td>
                                 <td>{{$category->cat_description}}</td>
-                                <td><a><i
-                                                class="fas fa-eye btn btn-success btn-circle btn-sm"></i></a>&nbsp
-                                    <a><i class="fas fa-edit btn btn-warning btn-circle btn-sm"></i></a>&nbsp
-                                    <a><i class="far fa-trash-alt btn btn-danger btn-circle btn-sm"></i></a></td>
+                                <td>
+                                    {{--<a><i class="fas fa-eye btn btn-success btn-circle btn-sm"></i></a>&nbsp--}}
+                                    <a href="/Edit_Category/{{$enCategory_id}}"><i
+                                                class="fas fa-edit btn btn-warning btn-circle btn-sm"></i></a>&nbsp
+                                   @if($category->status == '1')
+                                        <a href="/category/status/{{$enCategory_id}}/0"><i class="fas fa-window-close btn btn-danger btn-circle btn-sm" style="color: white" title="disable category"></i></a>
+                                   @else
+                                        <a href="/category/status/{{$enCategory_id}}/1"><i class="far fa-check-square btn btn-success btn-circle btn-sm" style="color: white" title="enable category"></i></a>
+                                   @endif
+                                </td>
                                 <td hidden>{{$category->created_at}}</td>
                             </tr>
                         @endforeach

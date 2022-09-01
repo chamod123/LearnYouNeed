@@ -45,7 +45,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/View_Blogs/{user_id}', 'BlogController@View_Blogs');
 Route::get('/View_a_Blog/{enblog_id}', 'BlogController@View_a_Blog');
-Route::get('/delete_blog/{enblog_id}', 'BlogController@deleteBlog');
+Route::get('/View_a_Blog_more/{enblog_id}', 'BlogController@View_a_Blog_more');
+//Route::get('/delete_blog/{enblog_id}', 'BlogController@deleteBlog');
+Route::get('/blog/status/{enblog_id}/{status}', 'BlogController@EditBlogStatus');
 
 Route::get('/Edit_Blog/{enblog_id}', 'BlogController@EditBlogView');
 Route::post('/Edit_Blog', 'BlogController@EditBlog');
@@ -58,6 +60,9 @@ Route::post('/New_Blog', 'BlogController@saveBlogView');
 Route::get('/Category', 'CategoryController@View_Category');
 Route::get('/New_Category', 'CategoryController@New_Category');
 Route::post('/New_Category', 'CategoryController@saveCategory');
+Route::get('/Edit_Category/{enCategory_id}', 'CategoryController@EditCategoryView');
+Route::post('/Edit_Category', 'CategoryController@EditCategory');
+Route::any('/category/status/{enCategory_id}/{status}', 'CategoryController@EditCategoryStatus');
 
 
 Route::get('/blog', 'BlogController@View_Blog');

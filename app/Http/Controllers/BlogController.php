@@ -20,7 +20,7 @@ class BlogController extends Controller
 
     public function View_Blogs($user_id)
     {
-        $blogs_data = BlogModel::where('user_id', '=', $user_id)->get();
+        $blogs_data = BlogModel::where('user_id', '=', $user_id)->orderBy('created_at', 'DESC')->get();
         return view('UserDash.Blog.View_Blogs', ['blogs_data' => $blogs_data]);
     }
 
@@ -53,6 +53,7 @@ class BlogController extends Controller
     }
 
 
+    //view a blog by admin home
     public function View_a_Blog($blog_id)
     {
         $blog_id = Crypt::decrypt($blog_id);
@@ -62,6 +63,8 @@ class BlogController extends Controller
         ]);
     }
 
+
+    //view blogs in blogs nav tab
     public function View_Blog()
     {
         $blogs = BlogModel::all();
@@ -74,33 +77,50 @@ class BlogController extends Controller
         ]);
     }
 
-
-    public function deleteBlog($blog_id)
+    //blog view from home
+    public function View_a_Blog_more($blog_id)
     {
         $blog_id = Crypt::decrypt($blog_id);
-
         $blog = BlogModel::find($blog_id);
-        if (empty($blog)) {
-            $errors = ["Cant Delete"];
-        }
-        if (!empty($errors)) {
-            return response()->json([
-                'msg' => 'Unable to delete. ',
-                'errors' => $errors
-            ], 200);
-        } else {
 
-
-            $categoty = CategoryModel::where('id','=',$blog->category_id)->first();
-            $categoty->post_count = $categoty->post_count + 1;
-            $categoty->save();
-            $blog->delete();
-
-            return back();
-        }
+        $category = CategoryModel::orderBy('post_count', 'desc')->take(6)->get();
+        $recent_posts = BlogModel::orderBy('created_at', 'desc')->take(4)->get();
+        return view('Blog.View_Blog', [
+            'blog' => $blog,
+            'categories' => $category,
+            'recent_posts' => $recent_posts,
+        ]);
     }
 
-    public function EditBlogView($blog_id){
+
+    // no need delete
+//    public function deleteBlog($blog_id)
+//    {
+//        $blog_id = Crypt::decrypt($blog_id);
+//
+//        $blog = BlogModel::find($blog_id);
+//        if (empty($blog)) {
+//            $errors = ["Cant Delete"];
+//        }
+//        if (!empty($errors)) {
+//            return response()->json([
+//                'msg' => 'Unable to delete. ',
+//                'errors' => $errors
+//            ], 200);
+//        } else {
+//
+//
+//            $category = CategoryModel::where('id','=',$blog->category_id)->first();
+//            $category->post_count = $category->post_count - 1;
+//            $category->save();
+//            $blog->delete();
+//
+//            return back();
+//        }
+//    }
+
+    public function EditBlogView($blog_id)
+    {
         $blog_id = Crypt::decrypt($blog_id);
         $blog = BlogModel::find($blog_id);
         $categories = CategoryModel::all();
@@ -135,6 +155,16 @@ class BlogController extends Controller
         //to view
 //        html_entity_decode($article_text);
 //        $content = base64_decode($editor_content);
+    }
+
+    public function EditBlogStatus($enBlog_id, $status)
+    {
+        $blog_id = Crypt::decrypt($enBlog_id);
+        $blog = BlogModel::find($blog_id);
+        $blog->status = $status;
+        $blog->save();
+
+        return back();
     }
 
 }

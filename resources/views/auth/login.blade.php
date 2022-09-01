@@ -73,3 +73,12 @@
 </div>
     </main>
 @endsection
+
+
+@section('content_script')
+    <script>
+        $('#nave_tab_login').addClass('active');
+    </script>
+
+@endsection
+

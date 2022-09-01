@@ -8,7 +8,7 @@
     {{--</div>--}}
 
 
-
+    <div style="border: black;border: solid;border-width: 0.1px;padding: 20px;border-radius: 15px">
     <div class="row box-header">
         <div class="row col-md-12">
             {{--<div class="col-md-1"></div>--}}
@@ -23,9 +23,8 @@
         </div>
     </div>
 
-    <div style="border: black;border: solid;border-width: 0.1px;padding: 20px;border-radius: 15px">
-    <br>
-    <br>
+
+
     <br>
 
     {!! base64_decode($blog->blog_body) !!}

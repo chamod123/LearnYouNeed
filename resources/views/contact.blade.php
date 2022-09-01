@@ -97,3 +97,11 @@
 
     </main><!-- End #main -->
 @endsection
+
+
+@section('content_script')
+    <script>
+        $('#nave_tab_content').addClass('active');
+    </script>
+
+@endsection
