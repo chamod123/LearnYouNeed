@@ -66,6 +66,9 @@ Route::any('/category/status/{enCategory_id}/{status}', 'CategoryController@Edit
 
 
 Route::get('/blog', 'BlogController@View_Blog');
+//view blog by category
+Route::get('/blog/Category/{enCategory_id}', 'BlogController@View_Blog_By_Category');
+
 //Route::get('/blog', function () {
 //    return view('Blog.blog');
 //});

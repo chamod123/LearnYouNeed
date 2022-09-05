@@ -1,5 +1,7 @@
 @extends('layout.app')
 
+@section('title','- View Blog')
+
 @section('contentBody')
 
 
@@ -9,7 +11,11 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Blog</h2>
+                    @if(isset($selected_category))
+                        <h2>{{$selected_category->cat_name}}</h2>
+                    @else
+                        <h2>Blog</h2>
+                    @endif
                     <ol>
                         <li><a href="index.html">Home</a></li>
                         <li>Blog</li>
@@ -70,8 +76,10 @@
                     <div class="sidebar-item categories">
                         <ul>
                             @foreach($categories as $category)
-                                <li><a href="#">{{$category->cat_name}} <span>({{$category->post_count}})</span></a>
-                                </li>
+                                <?php
+                                $enCategory_id = \Illuminate\Support\Facades\Crypt::encrypt($category->id);
+                                ?>
+                                <li><a href="/blog/Category/{{$enCategory_id}}">{{$category->cat_name}} <span>({{$category->post_count}})</span></a></li>
                             @endforeach
                         </ul>
                     </div><!-- End sidebar categories-->

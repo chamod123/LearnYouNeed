@@ -64,13 +64,30 @@ class BlogController extends Controller
     }
 
 
-    //view blogs in blogs nav tab
+    //view blogs in blogs nav tab - All blogs
     public function View_Blog()
     {
         $blogs = BlogModel::all();
         $category = CategoryModel::orderBy('post_count', 'desc')->take(6)->get();
         $recent_posts = BlogModel::orderBy('created_at', 'desc')->take(4)->get();
         return view('Blog.blog', [
+            'blogs' => $blogs,
+            'categories' => $category,
+            'recent_posts' => $recent_posts,
+        ]);
+    }
+
+    //view blogs by category
+    public function View_Blog_By_Category($enCategoryId)
+    {
+        $category_id = Crypt::decrypt($enCategoryId);
+        $selected_category = CategoryModel::find($category_id);
+        $blogs = BlogModel::where('category_id','=',$category_id)->get();
+        $category = CategoryModel::orderBy('post_count', 'desc')->take(6)->get();
+        $recent_posts = BlogModel::orderBy('created_at', 'desc')->take(4)->get();
+//        return $selected_category;
+        return view('Blog.blog', [
+            'selected_category' => $selected_category,
             'blogs' => $blogs,
             'categories' => $category,
             'recent_posts' => $recent_posts,
