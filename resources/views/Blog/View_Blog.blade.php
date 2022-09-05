@@ -79,9 +79,12 @@
                     <h3 class="sidebar-title">Recent Posts</h3>
                     <div class="sidebar-item recent-posts">
                         @foreach($recent_posts as $recent_post)
+                            <?php
+                            $enBlog_id = \Illuminate\Support\Facades\Crypt::encrypt($recent_post->id);
+                            ?>
                             <div class="post-item clearfix">
                                 <img src="/assets/img/blog/blog-recent-1.jpg" alt="">
-                                <h4><a href="blog-single.html">{{$recent_post->title}}</a></h4>
+                                <h4><a href="/View_a_Blog_more/{{$enBlog_id}}">{{$recent_post->title}}</a></h4>
                                 <time datetime="2020-01-01">{{$recent_post->created_at}}</time>
                             </div>
                         @endforeach
