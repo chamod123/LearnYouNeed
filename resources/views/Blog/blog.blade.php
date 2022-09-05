@@ -18,7 +18,7 @@
                         <h2>Blog</h2>
                     @endif
                     <ol>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a>Home</a></li>
                         <li>Blog</li>
 
                     </ol>
@@ -36,50 +36,49 @@
                     <div class="col-lg-8 entries">
 
                         @foreach($blogs as $blog)
-                        <article class="entry">
+                            <article class="entry">
 
-                            {{--<div class="entry-img">--}}
+                                {{--<div class="entry-img">--}}
                                 {{--<img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">--}}
-                            {{--</div>--}}
+                                {{--</div>--}}
 
-                            <h2 class="entry-title">
-                                <a href="blog-single.html">{{$blog->title}}</a>
-                            </h2>
+                                <h2 class="entry-title">
+                                    <a href="blog-single.html">{{$blog->title}}</a>
+                                </h2>
 
-                            <h2 class="entry-title" style="font-size: 18px;">
-                                <a href="blog-single.html" style="color: #8b8e95">{{$blog->slug}}</a>
-                            </h2>
+                                <h2 class="entry-title" style="font-size: 18px;">
+                                    <a href="blog-single.html" style="color: #8b8e95">{{$blog->slug}}</a>
+                                </h2>
 
-                            <div class="entry-meta">
-                                <ul>
-                                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
-                                                href="blog-single.html">{{$blog->user->name}}</a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
-                                                href="blog-single.html">
-                                            <time datetime="2020-01-01">{{$blog->created_at}}</time>
-                                        </a></li>
-                                    <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
-                                                href="blog-single.html">{{$blog->comment_count}}</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="entry-content">
-                                <div>
-
-                                    {!! base64_decode(Illuminate\Support\Str::limit($blog->blog_body, 1000)) !!} ...
-{{--                                    {!! base64_decode($blog->blog_body) !!}--}}
+                                <div class="entry-meta">
+                                    <ul>
+                                        <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a
+                                                    href="blog-single.html">{{$blog->user->name}}</a></li>
+                                        <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a
+                                                    href="blog-single.html">
+                                                <time datetime="2020-01-01">{{$blog->created_at}}</time>
+                                            </a></li>
+                                        <li class="d-flex align-items-center"><i class="bi bi-chat-dots"></i> <a
+                                                    href="blog-single.html">{{$blog->comment_count}}</a></li>
+                                    </ul>
                                 </div>
-                                <?php
-                                $enBlog_id = \Illuminate\Support\Facades\Crypt::encrypt($blog->id);
-                                ?>
-                                <div class="read-more">
-                                    <a href="/View_a_Blog_more/{{$enBlog_id}}">Read More</a>
-                                </div>
-                            </div>
 
-                        </article><!-- End blog entry -->
+                                <div class="entry-content">
+                                    <div>
+
+                                        {!! base64_decode(Illuminate\Support\Str::limit($blog->blog_body, 1000)) !!} ...
+                                        {{--                                    {!! base64_decode($blog->blog_body) !!}--}}
+                                    </div>
+                                    <?php
+                                    $enBlog_id = \Illuminate\Support\Facades\Crypt::encrypt($blog->id);
+                                    ?>
+                                    <div class="read-more">
+                                        <a href="/View_a_Blog_more/{{$enBlog_id}}">Read More</a>
+                                    </div>
+                                </div>
+
+                            </article><!-- End blog entry -->
                         @endforeach
-
 
 
                         <div class="blog-pagination">
@@ -111,7 +110,8 @@
                                         <?php
                                         $enCategory_id = \Illuminate\Support\Facades\Crypt::encrypt($category->id);
                                         ?>
-                                        <li><a href="/blog/Category/{{$enCategory_id}}">{{$category->cat_name}} <span>({{$category->post_count}})</span></a></li>
+                                        <li><a href="/blog/Category/{{$enCategory_id}}">{{$category->cat_name}}
+                                                <span>({{$category->post_count}})</span></a></li>
                                     @endforeach
                                 </ul>
                             </div><!-- End sidebar categories-->

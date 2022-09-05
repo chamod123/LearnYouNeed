@@ -17,7 +17,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+          rel="stylesheet">
 
     <!-- Vendor CSS Files -->
     <link href="/assets/HomeStyle/animate.css/animate.min.css" rel="stylesheet">
@@ -32,12 +33,6 @@
     <!-- Template Main CSS File -->
     <link href="/assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
-    * Template Name: Company - v4.1.0
-    * Template URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
 </head>
 
 <body>
@@ -47,9 +42,12 @@
     <div class="container d-flex align-items-center">
 
         {{--<h1 class="logo me-auto"><a href="/"><span>L</span>Y<span>Ne</span></a></h1>--}}
-        <h4 class=" me-auto"><a href="/"><span style="color:#ff9904;"><img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid" style="width: 40px;height: 40px">Learn You Need</span></a></h4>
+        <h4 class=" me-auto"><a href="/"><span style="color:#ff9904;"><img src="/assets/img/Logo/logo5_22_13654.png"
+                                                                           alt="" class="img-fluid"
+                                                                           style="width: 40px;height: 40px">Learn You Need</span></a>
+        </h4>
         <!-- Uncomment below if you prefer to use an image logo -->
-       <a href="index.html" class="logo me-auto me-lg-0"></a>
+        <a href="index.html" class="logo me-auto me-lg-0"></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
@@ -83,20 +81,24 @@
                     </li>
                     @if (Route::has('register'))
                         <li class="nav-item">
-                            <a id="nave_tab_register" class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                            <a id="nave_tab_register" class="nav-link"
+                               href="{{ route('register') }}">{{ __('Register') }}</a>
                         </li>
                     @endif
                 @else
-                    <li class="dropdown"><a href="#"><span>{{ Auth::user()->name }}</span> <i class="bi bi-chevron-right"></i></a>
+                    <li class="dropdown"><a href="#"><span>{{ Auth::user()->name }}</span> <i
+                                    class="bi bi-chevron-right"></i></a>
                         <ul>
                             <li><a class="dropdown-item" href="{{ route('logout') }}"
                                    onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                      style="display: none;">
                                     @csrf
-                                </form></li>
+                                </form>
+                            </li>
                             <li><a href="/home">My Home</a></li>
                         </ul>
                     </li>
@@ -130,11 +132,12 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 footer-contact">
-                    <h3 style="color: #ff9904"><img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid" style="width: 60px;height: 60px">Learn You Need</h3>
+                    <h3 style="color: #ff9904"><img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid"
+                                                    style="width: 60px;height: 60px">Learn You Need</h3>
                     <p>
-                          <br>
-                         <br>
-                         <br><br>
+                        <br>
+                        <br>
+                        <br><br>
                         <strong>Phone:</strong> +94 77 98 53 864<br>
                         <strong>Email:</strong> learnyouneed@gmail.com<br>
                     </p>
@@ -164,7 +167,7 @@
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Join Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                    <p>You can get new blog updates to your mail</p>
                     <form action="" method="post">
                         <input type="email" name="email"><input type="submit" value="Subscribe">
                     </form>
@@ -181,11 +184,7 @@
                 &copy; Copyright <strong><span>Learn You Need</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/company-free-html-bootstrap-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="#">Dice Solutions</a>
             </div>
         </div>
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -198,7 +197,8 @@
     </div>
 </footer><!-- End Footer -->
 
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
 <!-- Vendor JS Files -->
 <script src="/assets/HomeStyle/aos/aos.js"></script>

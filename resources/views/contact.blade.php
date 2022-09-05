@@ -10,7 +10,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h2>Contact</h2>
                     <ol>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a>Home</a></li>
                         <li>Contact</li>
                     </ol>
                 </div>
@@ -35,21 +35,21 @@
                         <div class="info-wrap">
                             <div class="row">
                                 <div class="col-lg-4 info">
-                                    <i class="bi bi-geo-alt"></i>
-                                    <h4>Location:</h4>
-                                    <p>A108 Adam Street<br>New York, NY 535022</p>
+                                    <i class="bi bi-facebook"></i>
+                                    <h4>Facebook:</h4>
+                                    <p><a href="https://www.facebook.com/profile.php?id=100071453419938" target="_blank">Learn You Need</a></p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
                                     <i class="bi bi-envelope"></i>
                                     <h4>Email:</h4>
-                                    <p>info@example.com<br>contact@example.com</p>
+                                    <p>learnyouneed@gmail.com</p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
                                     <i class="bi bi-phone"></i>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
+                                    <p>+94 77 98 53 864</p>
                                 </div>
                             </div>
                         </div>
