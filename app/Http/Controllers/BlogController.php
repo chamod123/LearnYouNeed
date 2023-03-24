@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\BlogModel;
+use App\CategoryMainModel;
 use App\CategoryModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -38,6 +39,11 @@ class BlogController extends Controller
         $categoty = CategoryModel::find($request->get('category_id'));
         $categoty->post_count = $categoty->post_count + 1;
         $categoty->save();
+
+
+        $main_categoty = CategoryMainModel::find($categoty->main_cat_id);
+        $main_categoty->post_count = $main_categoty->post_count + 1;
+        $main_categoty->save();
 
 //        $categoty = CategoryModel::where('id', $request->get('category_id'))
 //            ->update([
