@@ -17,5 +17,9 @@ class BlogModel extends Model
     {
         return $this->belongsTo('App\CategoryModel','category_id','id');
     }
+    public function main_category()
+    {
+        return $this->belongsTo('App\CategoryMainModel','main_cat_id','id');
+    }
 
 }

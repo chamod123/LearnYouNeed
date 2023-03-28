@@ -36,7 +36,8 @@
                             <tr>
                                 <td>{{$blog_data->title}}</td>
                                 <td>{{$blog_data->slug}}</td>
-                                <td>{{$blog_data->category->cat_name}}</td>
+                                <td><b>{{$blog_data->main_category->main_cat_name}}</b><br>
+                                    {{$blog_data->category->cat_name}}</td>
                                 <td>{{$blog_data->created_at}}</td>
                                 <td><a href="/View_a_Blog/{{$enBlog_id}}"><i
                                                 class="fas fa-eye btn btn-success btn-circle btn-sm"></i></a>&nbsp

@@ -20,7 +20,7 @@
             <div class="row col-md-12">
                 <div class="col-md-1"></div>
                 <label class="col-md-2">Blog Title</label>
-                <input class="col-md-7 form-control" id="title" name="title">
+                <input class="col-md-7 form-control" id="title" name="title" required>
             </div>
         </div>
 
@@ -28,7 +28,7 @@
             <div class="row col-md-12">
                 <div class="col-md-1"></div>
                 <label class="col-md-2">Slug</label>
-                <input class="col-md-7 form-control" id="slug" name="slug">
+                <input class="col-md-7 form-control" id="slug" name="slug" required>
             </div>
         </div>
 
@@ -37,12 +37,12 @@
                 <div class="col-md-1"></div>
                 <label class="col-md-2">Main Category</label>
 
-                <select name="main_category_id" class="col-md-7 form-control select2 chosen">
+                <select name="main_category_id" class="col-md-7 form-control select2 chosen" required>
                     <option value="" >Select a Main Category</option>
                     @if(isset($main_categories))
                         @foreach($main_categories as $main_category)
 
-                            <option name="category_id"
+                            <option name="main_category_id"
                                     value="{{$main_category->id}}">
                                 {{$main_category->main_cat_name}}</option>
 
@@ -59,7 +59,7 @@
                 <div class="col-md-1"></div>
                 <label class="col-md-2">Category</label>
 
-                <select name="category_id" class="col-md-7 form-control select2 chosen">
+                <select name="category_id" class="col-md-7 form-control select2 chosen" required>
                     <option value="">Select a Category</option>
                     @if(isset($categories))
                         @foreach($categories as $category)

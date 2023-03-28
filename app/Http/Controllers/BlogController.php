@@ -34,6 +34,7 @@ class BlogController extends Controller
         $blog->title = $request->get('title');
         $blog->slug = $request->get('slug');
         $blog->category_id = $request->get('category_id');
+        $blog->main_cat_id = $request->get('main_category_id');
         $blog->blog_body = base64_encode($request->get('blog_body'));
         $blog->user_id = Auth::user()->id;
         $blog->save();
