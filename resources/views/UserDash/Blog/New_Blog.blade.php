@@ -35,6 +35,28 @@
         <div class="row box-header">
             <div class="row col-md-12">
                 <div class="col-md-1"></div>
+                <label class="col-md-2">Main Category</label>
+
+                <select name="main_category_id" class="col-md-7 form-control select2 chosen">
+                    <option value="" >Select a Main Category</option>
+                    @if(isset($main_categories))
+                        @foreach($main_categories as $main_category)
+
+                            <option name="category_id"
+                                    value="{{$main_category->id}}">
+                                {{$main_category->main_cat_name}}</option>
+
+                        @endforeach
+                    @elseif(isset($message))
+                        <p>{{$message}}</p>
+                    @endif
+                </select>
+            </div>
+        </div>
+
+        <div class="row box-header">
+            <div class="row col-md-12">
+                <div class="col-md-1"></div>
                 <label class="col-md-2">Category</label>
 
                 <select name="category_id" class="col-md-7 form-control select2 chosen">
@@ -43,8 +65,7 @@
                         @foreach($categories as $category)
 
                             <option name="category_id"
-                                    value="{{$category->id}}"
-                                    selected>
+                                    value="{{$category->id}}">
                                 {{$category->cat_name}}</option>
 
                         @endforeach

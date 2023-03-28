@@ -14,8 +14,10 @@ class BlogController extends Controller
     public function newBlogView()
     {
         $category = CategoryModel::all();
+        $main_category = CategoryMainModel::all();
         return view('UserDash.Blog.New_Blog',
-            ['categories' => $category]
+            ['categories' => $category,
+                'main_categories' => $main_category]
         );
     }
 
@@ -26,7 +28,7 @@ class BlogController extends Controller
     }
 
 
-    public function saveBlogView(Request $request)
+    public function saveBlog(Request $request)
     {
         $blog = new BlogModel();
         $blog->title = $request->get('title');

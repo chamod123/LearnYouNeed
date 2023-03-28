@@ -53,7 +53,7 @@ Route::get('/Edit_Blog/{enblog_id}', 'BlogController@EditBlogView');
 Route::post('/Edit_Blog', 'BlogController@EditBlog');
 
 Route::get('/New_Blog', 'BlogController@newBlogView');
-Route::post('/New_Blog', 'BlogController@saveBlogView');
+Route::post('/New_Blog', 'BlogController@saveBlog');
 
 
 //admin
