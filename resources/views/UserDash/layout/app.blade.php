@@ -90,6 +90,12 @@
             </div>
 
             <li class="nav-item ">
+                <a class="nav-link" href="/Main_Category">
+                    <i class="fas fa-fw fa-compress"></i>
+                    <span>Main Category</span></a>
+            </li>
+
+            <li class="nav-item ">
                 <a class="nav-link" href="/Category">
                     <i class="fas fa-fw fa-compress"></i>
                     <span>Category</span></a>
