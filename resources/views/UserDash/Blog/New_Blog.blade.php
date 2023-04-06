@@ -35,6 +35,14 @@
         <div class="row box-header">
             <div class="row col-md-12">
                 <div class="col-md-1"></div>
+                <label class="col-md-2">Thumbnail</label>
+                <input type="file" class="col-md-7 form-control" id="thumbnail" name="thumbnail" required>
+            </div>
+        </div>
+
+        <div class="row box-header">
+            <div class="row col-md-12">
+                <div class="col-md-1"></div>
                 <label class="col-md-2">Main Category</label>
 
                 <select name="main_category_id" class="col-md-7 form-control select2 chosen" required>
