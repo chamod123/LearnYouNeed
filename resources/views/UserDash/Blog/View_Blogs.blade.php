@@ -20,6 +20,7 @@
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <thead>
                         <tr>
+                            <th></th>
                             <th>Title</th>
                             <th>Slug</th>
                             <th>Category</th>
@@ -34,6 +35,7 @@
                             $enBlog_id = \Illuminate\Support\Facades\Crypt::encrypt($blog_data->id);
                             ?>
                             <tr>
+                                <td><img style="height: 50px;height: 50px;border-radius: 5px" src="{{ asset('blog_thumbnail/'.$blog_data->thumbnail) }}" alt="Thumbnail"></td>
                                 <td>{{$blog_data->title}}</td>
                                 <td>{{$blog_data->slug}}</td>
                                 <td><b>{{$blog_data->main_category->main_cat_name}}</b><br>
