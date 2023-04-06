@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\CategoryMainModel;
 use App\CategoryModel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -58,6 +59,16 @@ class CategoryController extends Controller
         $category->save();
 
         return redirect('/Category');
+    }
+
+
+
+    //Main Category
+    public function View_Main_Category()
+    {
+        $category_main_data = CategoryMainModel::all();
+
+        return view('UserDash.Category_Main.View_Main_Category', ['category_main_data' => $category_main_data]);
     }
 
 }
