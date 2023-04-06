@@ -71,4 +71,10 @@ class CategoryController extends Controller
         return view('UserDash.Category_Main.View_Main_Category', ['category_main_data' => $category_main_data]);
     }
 
+    public function New_Main_Category()
+    {
+        return view('UserDash.Category_Main.New_Main_Category', [
+        ]);
+    }
+
 }
