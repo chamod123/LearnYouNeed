@@ -92,7 +92,7 @@
                                     $enBlog_id = \Illuminate\Support\Facades\Crypt::encrypt($recent_post->id);
                                     ?>
                                     <div class="post-item clearfix">
-                                        <img src="/assets/img/blog/blog-recent-1.jpg" alt="">
+                                        <img src="{{ asset('blog_thumbnail/'.$recent_post->thumbnail) }}" alt="">
                                         <h4><a href="/View_a_Blog_more/{{$enBlog_id}}">{{$recent_post->title}}</a></h4>
                                         <time datetime="2020-01-01">{{$recent_post->created_at}}</time>
                                     </div>

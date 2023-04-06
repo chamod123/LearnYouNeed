@@ -30,10 +30,21 @@ class BlogController extends Controller
 
     public function saveBlog(Request $request)
     {
+        $request->validate([
+            'thumbnail' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+        ]);
+
+        //upload image
+        $image = $request->file('thumbnail');
+        $imageName = time().'.'.$image->extension();
+        $image->move(public_path('blog_thumbnail'), $imageName);
+
         $blog = new BlogModel();
         $blog->title = $request->get('title');
         $blog->slug = $request->get('slug');
+        $blog->thumbnail = $imageName;
         $blog->category_id = $request->get('category_id');
+        $blog->main_cat_id = $request->get('main_category_id');
         $blog->blog_body = base64_encode($request->get('blog_body'));
         $blog->user_id = Auth::user()->id;
         $blog->save();

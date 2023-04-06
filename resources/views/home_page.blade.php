@@ -101,7 +101,7 @@
                     <div class="col-lg-5 pt-4 pt-lg-0" data-aos="fade-left">
                         @foreach($recent_posts as $recent_post)
                         <div class="row" style="margin-top: 25px !important;">
-                            <img class="col-md-2" src="assets/img/blog/blog-recent-1.jpg" alt=""style="height: 60px">
+                            <img class="col-md-2" src="{{ asset('blog_thumbnail/'.$recent_post->thumbnail) }}" alt=""style="height: 60px">
                             <div class="col-md-10 ">
                                 <h4 class="col-md-12" ><a href="blog-single.html" style="color: #0a53be">{{$recent_post->title}}</a></h4>
                                 <b style="color: #ffa064;font-size: 13px">{{$recent_post->slug}}</b>&nbsp;&nbsp;
