@@ -30,9 +30,11 @@ class BlogController extends Controller
 
     public function saveBlog(Request $request)
     {
-        $request->validate([
-            'thumbnail' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
-        ]);
+
+//        return $request;
+//        $request->validate([
+//            'thumbnail' => 'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+//        ]);
 
         //upload image
         $image = $request->file('thumbnail');

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Learn You Need</title>
+    <title>Blog Hub</title>
 
     <!-- Favicons -->
     <link href="/assets/img/Logo/logo5_22_13654.png" rel="icon">
@@ -54,7 +54,7 @@
 
             </div>
             <div class="sidebar-brand-text mx-3">
-                <span style="color:#ff9904;font-size: 12px">Learn You Need </span>
+                <span style="color:#ff9904;font-size: 12px">Blog Hub </span>
             </div>
         </a>
 
@@ -435,7 +435,7 @@
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Learn You Need 2021</span>
+                    <span>Copyright &copy; Blog Hub 2021</span>
                 </div>
             </div>
         </footer>

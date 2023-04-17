@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Learn You Need @yield('title')</title>
+    <title>Blog Hub @yield('title')</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -44,7 +44,7 @@
         {{--<h1 class="logo me-auto"><a href="/"><span>L</span>Y<span>Ne</span></a></h1>--}}
         <h4 class=" me-auto"><a href="/"><span style="color:#ff9904;"><img src="/assets/img/Logo/logo5_22_13654.png"
                                                                            alt="" class="img-fluid"
-                                                                           style="width: 40px;height: 40px">Learn You Need</span></a>
+                                                                           style="width: 40px;height: 40px">Blog Hub</span></a>
         </h4>
         <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html" class="logo me-auto me-lg-0"></a>
@@ -133,13 +133,13 @@
 
                 <div class="col-lg-3 col-md-6 footer-contact">
                     <h3 style="color: #ff9904"><img src="/assets/img/Logo/logo5_22_13654.png" alt="" class="img-fluid"
-                                                    style="width: 60px;height: 60px">Learn You Need</h3>
+                                                    style="width: 60px;height: 60px">Blog Hub</h3>
                     <p>
                         <br>
                         <br>
                         <br><br>
                         <strong>Phone:</strong> +94 77 98 53 864<br>
-                        <strong>Email:</strong> learnyouneed@gmail.com<br>
+                        <strong>Email:</strong> chamodwijesena77@gmail.com<br>
                     </p>
                 </div>
 
@@ -181,7 +181,7 @@
 
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright <strong><span>Learn You Need</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Blog Hub</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 Designed by <a href="#">Dice Solutions</a>

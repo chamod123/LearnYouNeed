@@ -37,13 +37,13 @@
                                 <div class="col-lg-4 info">
                                     <i class="bi bi-facebook"></i>
                                     <h4>Facebook:</h4>
-                                    <p><a href="https://www.facebook.com/profile.php?id=100071453419938" target="_blank">Learn You Need</a></p>
+                                    <p><a href="https://www.facebook.com/profile.php?id=100071453419938" target="_blank">Blog Hub</a></p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
                                     <i class="bi bi-envelope"></i>
                                     <h4>Email:</h4>
-                                    <p>learnyouneed@gmail.com</p>
+                                    <p>chamodwijesena77@gmail.com</p>
                                 </div>
 
                                 <div class="col-lg-4 info mt-4 mt-lg-0">
