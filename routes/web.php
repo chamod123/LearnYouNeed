@@ -67,6 +67,7 @@ Route::any('/category/status/{enCategory_id}/{status}', 'CategoryController@Edit
 
 //category-main
 Route::get('/Main_Category', 'CategoryController@View_Main_Category');
+Route::get('/New_Main_Category', 'CategoryController@New_Main_Category');
 
 Route::get('/blog', 'BlogController@View_Blog');
 //view blog by category
